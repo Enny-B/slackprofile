@@ -1,0 +1,62 @@
+/* font style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+h2{
+    text-align: center;
+    padding: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+}
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+}
+
+a{
+    color: #3f758d;
+}
+
+a:hover{
+    text-decoration: underline #3f758d;
+}
+
+#profileSlack{
+    padding: 1% 20rem;
+    text-align: center;
+    justify-content: center;
+}
+
+#profileSlack h3{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+#slackDisplayImage img{
+    height: 16rem;
+    width: 15rem;
+    border-radius: 40%;
+    /* position: absolute; */
+    /* margin-left: 28rem; */
+}
+
+#CurrentDayOfTheWeek{
+    font-size: 1rem;
+    font-weight: 300;
+    padding: 7% 10rem;
+    font-family: 'Open Sans', sans-serif;
+}
